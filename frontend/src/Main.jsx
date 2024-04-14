@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-const files = ['file1.txt', 'file2.txt', 'file3.txt', 'file4.txt','bootstrap-5.3.3.zip'];
+const files = ['7z2404-x64.exe', 'kali-linux-2024.1-virtualbox-amd64.7z', 'metasploitable-linux-2.0.0.zip', 'VirtualBox-7.0.12-159484-Win.exe',];
 
 function Main() {
   const handleDownload = async (filename) => {
